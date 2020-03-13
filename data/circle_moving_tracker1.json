@@ -1,0 +1,59 @@
+{
+  "_comment": "The json object for circular fence, need to provide lat, lon and radius in the shape_coordinate. Moving coordinate need to be filled only when used for In-Transit geo location tracking, otherwise it should be left empty ",
+  "shape": "Circle",
+  "vehicle": "van",
+  "shape_coordinate":
+    {
+      "lat": 1.0,
+      "lon": 1.0,
+      "rad": 6.0
+    }
+  ,
+  "moving_coordinate": [
+    {
+      "lat": 7.0,
+      "lon": 7.0
+    },
+    {
+      "lat": 4.0,
+      "lon": 4.0
+    },
+    {
+      "lat": 3.0,
+      "lon": 3.0
+    },
+    {
+      "lat": 2.0,
+      "lon": 2.0
+    },
+    {
+      "lat": 1.0,
+      "lon": 1.0
+    },
+    {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    {
+      "lat": -1.0,
+      "lon": -1.0
+    },
+    {
+      "lat": -2.0,
+      "lon": -2.0
+    },
+    {
+      "lat": -3.0,
+      "lon": -3.0
+    },
+    {
+      "lat": -4.0,
+      "lon": -4.0
+    },
+    {
+      "lat": -5.0,
+      "lon": -5.0
+    }
+  ]
+}
+

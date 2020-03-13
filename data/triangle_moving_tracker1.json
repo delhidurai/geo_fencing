@@ -1,0 +1,38 @@
+{
+  "_comment": "The json object for triangular fence, need to provide exactly 3 coordinates  in the shape_coordinate. moving_coordinate need to be filled when used for In-Transit geo location ",
+  "shape": "Triangle",
+  "vehicle": "car",
+  "shape_coordinate": [
+    {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    {
+      "lat": 10.0,
+      "lon": 0.0
+    },
+    {
+      "lat": 5.0,
+      "lon": 5.0
+    }
+  ],
+  "moving_coordinate": [
+    {
+      "lat": 20.0,
+      "lon": 10.0
+    },
+    {
+      "lat": 4.0,
+      "lon": 4.0
+    },
+    {
+      "lat": 9.9,
+      "lon": 9.9
+    },
+    {
+      "lat": 0.0,
+      "lon": 5.5
+    }
+  ]
+}
+

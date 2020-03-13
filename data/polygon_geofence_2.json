@@ -1,0 +1,27 @@
+{
+  "_comment": "The json object for polygon fence. Need to provide atleast 4 coordinates in the shape_coordinate. Moving coordinate need to be filled only when used for In-Transit geo location tracking, otherwise it should be left empty",
+  "shape": "Polygon",
+  "vehicle": "bus",
+  "shape_coordinate": [
+    {
+      "lat": 55.761515,
+      "lon": 37.600375
+    },
+    {
+      "lat": 55.759428,
+      "lon": 37.651156
+    },
+    {
+      "lat": 55.737112,
+      "lon": 37.649566
+    },
+    {
+      "lat": 55.737649,
+      "lon": 37.597301
+    }
+  ],
+  "moving_coordinate": [
+
+  ]
+}
+
